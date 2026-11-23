@@ -1,0 +1,56 @@
+.rehber {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px 20px;
+  background: #f5f9ff;
+}
+
+.mekan-karti {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.harita iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  display: block;
+}
+
+.bilgi {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255,255,255,0.9);
+  padding: 15px 20px;
+  border-radius: 12px;
+  max-width: 300px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.bilgi h2 {
+  font-size: 1.5rem;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.bilgi p {
+  font-size: 1rem;
+  color: #333;
+  margin: 4px 0;
+}
+
+.bilgi .saat {
+  font-weight: bold;
+  color: #2c7a7b;
+}
+body {
+  margin-top: 80px;
+	background-color:#fff;
+	font-family: 'Segoe UI', sans-serif;
+  
+}
